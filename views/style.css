@@ -1,0 +1,41 @@
+*{
+	color: #333;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+form{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+input{
+	padding: 10px 20px;
+}
+input.search{
+	height: 50px;
+	width: 600px;
+	font-size: 14px;
+	border: 1px solid black;
+	border-right: 0;
+}
+input.button{
+	height: 72px;
+	font-size: 20px;
+	border: 1px solid black;
+	border-left: 0;
+	cursor: pointer;
+}
+form.available input{
+	border: 2px solid green;
+}
+form.NotAvailable input{
+	border: 2px solid red;
+}
+img{
+	max-width: 1000px;
+	margin-top: 20px;
+}

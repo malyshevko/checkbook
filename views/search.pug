@@ -1,0 +1,15 @@
+form(
+	method='get'
+	action='/view'
+)
+	input.search(
+		type='text'
+		name='url'
+		placeholder='Ссылка на книгу'
+		if link
+			value=link
+	)
+	input.button(
+		type='submit'
+		value='Проверить'
+	)
